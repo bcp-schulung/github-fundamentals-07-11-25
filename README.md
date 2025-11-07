@@ -23,7 +23,12 @@ pip install -r requirements.txt
 python app.py
 ```
 
-2. Access the application using curl:
+2. For development with debug mode enabled:
+```bash
+FLASK_DEBUG=1 python app.py
+```
+
+3. Access the application using curl:
 ```bash
 curl http://localhost:5000/
 ```
