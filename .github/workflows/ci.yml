@@ -109,8 +109,6 @@ jobs:
           python-version: "3.12"
           cache: 'pip'
           cache-dependency-path: |
-            pyproject.toml
-            poetry.lock
             requirements.txt
 
       - name: Upgrade pip & install build tooling
